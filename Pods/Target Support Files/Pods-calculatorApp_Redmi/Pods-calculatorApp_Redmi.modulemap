@@ -1,0 +1,6 @@
+framework module Pods_calculatorApp_Redmi {
+  umbrella header "Pods-calculatorApp_Redmi-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849D899E2BFA28E600D410FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D899D2BFA28E600D410FF /* AppDelegate.swift */; };
+		849D89A02BFA28E600D410FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D899F2BFA28E600D410FF /* SceneDelegate.swift */; };
+		849D89A22BFA28E600D410FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D89A12BFA28E600D410FF /* ViewController.swift */; };
+		849D89A52BFA28E600D410FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D89A32BFA28E600D410FF /* Main.storyboard */; };
+		849D89A72BFA28E800D410FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849D89A62BFA28E800D410FF /* Assets.xcassets */; };
+		849D89AA2BFA28E800D410FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D89A82BFA28E800D410FF /* LaunchScreen.storyboard */; };
+		849D89B22BFA2A5700D410FF /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D89B12BFA2A5600D410FF /* Constans.swift */; };
+		A92BD3F09D3102DBDD4FFDAF /* Pods_calculatorApp_Redmi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16C95F1ACDD6330A7D7B372 /* Pods_calculatorApp_Redmi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		658D16B40CA215504349098A /* Pods-calculatorApp_Redmi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculatorApp_Redmi.release.xcconfig"; path = "Target Support Files/Pods-calculatorApp_Redmi/Pods-calculatorApp_Redmi.release.xcconfig"; sourceTree = "<group>"; };
+		849D899A2BFA28E600D410FF /* calculatorApp_Redmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculatorApp_Redmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849D899D2BFA28E600D410FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		849D899F2BFA28E600D410FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		849D89A12BFA28E600D410FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		849D89A42BFA28E600D410FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849D89A62BFA28E800D410FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849D89A92BFA28E800D410FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849D89AB2BFA28E800D410FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849D89B12BFA2A5600D410FF /* Constans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constans.swift; path = ../../calculatorApp/calculatorApp/Constans.swift; sourceTree = "<group>"; };
+		BD83EEC5430891AFB51D3B14 /* Pods-calculatorApp_Redmi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculatorApp_Redmi.debug.xcconfig"; path = "Target Support Files/Pods-calculatorApp_Redmi/Pods-calculatorApp_Redmi.debug.xcconfig"; sourceTree = "<group>"; };
+		F16C95F1ACDD6330A7D7B372 /* Pods_calculatorApp_Redmi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calculatorApp_Redmi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849D89972BFA28E600D410FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92BD3F09D3102DBDD4FFDAF /* Pods_calculatorApp_Redmi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0020261DAC24DA53FB5F6DE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F16C95F1ACDD6330A7D7B372 /* Pods_calculatorApp_Redmi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16D139C2CB65BC17A48E67D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD83EEC5430891AFB51D3B14 /* Pods-calculatorApp_Redmi.debug.xcconfig */,
+				658D16B40CA215504349098A /* Pods-calculatorApp_Redmi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		849D89912BFA28E600D410FF = {
+			isa = PBXGroup;
+			children = (
+				849D899C2BFA28E600D410FF /* calculatorApp_Redmi */,
+				849D899B2BFA28E600D410FF /* Products */,
+				16D139C2CB65BC17A48E67D8 /* Pods */,
+				0020261DAC24DA53FB5F6DE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		849D899B2BFA28E600D410FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849D899A2BFA28E600D410FF /* calculatorApp_Redmi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849D899C2BFA28E600D410FF /* calculatorApp_Redmi */ = {
+			isa = PBXGroup;
+			children = (
+				849D899D2BFA28E600D410FF /* AppDelegate.swift */,
+				849D899F2BFA28E600D410FF /* SceneDelegate.swift */,
+				849D89A12BFA28E600D410FF /* ViewController.swift */,
+				849D89B12BFA2A5600D410FF /* Constans.swift */,
+				849D89A32BFA28E600D410FF /* Main.storyboard */,
+				849D89A62BFA28E800D410FF /* Assets.xcassets */,
+				849D89A82BFA28E800D410FF /* LaunchScreen.storyboard */,
+				849D89AB2BFA28E800D410FF /* Info.plist */,
+			);
+			path = calculatorApp_Redmi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849D89992BFA28E600D410FF /* calculatorApp_Redmi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849D89AE2BFA28E800D410FF /* Build configuration list for PBXNativeTarget "calculatorApp_Redmi" */;
+			buildPhases = (
+				0C9412CA69A331D900FAECFD /* [CP] Check Pods Manifest.lock */,
+				849D89962BFA28E600D410FF /* Sources */,
+				849D89972BFA28E600D410FF /* Frameworks */,
+				849D89982BFA28E600D410FF /* Resources */,
+				98A4ECD2B8F62F65B2C6353E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calculatorApp_Redmi;
+			productName = calculatorApp_Redmi;
+			productReference = 849D899A2BFA28E600D410FF /* calculatorApp_Redmi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849D89922BFA28E600D410FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					849D89992BFA28E600D410FF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 849D89952BFA28E600D410FF /* Build configuration list for PBXProject "calculatorApp_Redmi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849D89912BFA28E600D410FF;
+			productRefGroup = 849D899B2BFA28E600D410FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849D89992BFA28E600D410FF /* calculatorApp_Redmi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849D89982BFA28E600D410FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D89AA2BFA28E800D410FF /* LaunchScreen.storyboard in Resources */,
+				849D89A72BFA28E800D410FF /* Assets.xcassets in Resources */,
+				849D89A52BFA28E600D410FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C9412CA69A331D900FAECFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calculatorApp_Redmi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A4ECD2B8F62F65B2C6353E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calculatorApp_Redmi/Pods-calculatorApp_Redmi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calculatorApp_Redmi/Pods-calculatorApp_Redmi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-calculatorApp_Redmi/Pods-calculatorApp_Redmi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849D89962BFA28E600D410FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D89A22BFA28E600D410FF /* ViewController.swift in Sources */,
+				849D899E2BFA28E600D410FF /* AppDelegate.swift in Sources */,
+				849D89B22BFA2A5700D410FF /* Constans.swift in Sources */,
+				849D89A02BFA28E600D410FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		849D89A32BFA28E600D410FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849D89A42BFA28E600D410FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849D89A82BFA28E800D410FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849D89A92BFA28E800D410FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849D89AC2BFA28E800D410FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		849D89AD2BFA28E800D410FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849D89AF2BFA28E800D410FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD83EEC5430891AFB51D3B14 /* Pods-calculatorApp_Redmi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = calculatorApp_Redmi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shodon.calculatorApp-Redmi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849D89B02BFA28E800D410FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658D16B40CA215504349098A /* Pods-calculatorApp_Redmi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = calculatorApp_Redmi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shodon.calculatorApp-Redmi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849D89952BFA28E600D410FF /* Build configuration list for PBXProject "calculatorApp_Redmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D89AC2BFA28E800D410FF /* Debug */,
+				849D89AD2BFA28E800D410FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849D89AE2BFA28E800D410FF /* Build configuration list for PBXNativeTarget "calculatorApp_Redmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D89AF2BFA28E800D410FF /* Debug */,
+				849D89B02BFA28E800D410FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849D89922BFA28E600D410FF /* Project object */;
+}
