@@ -13,7 +13,7 @@
 		849D89A52BFA28E600D410FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D89A32BFA28E600D410FF /* Main.storyboard */; };
 		849D89A72BFA28E800D410FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849D89A62BFA28E800D410FF /* Assets.xcassets */; };
 		849D89AA2BFA28E800D410FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D89A82BFA28E800D410FF /* LaunchScreen.storyboard */; };
-		849D89B22BFA2A5700D410FF /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D89B12BFA2A5600D410FF /* Constans.swift */; };
+		849D89B42BFA2F4000D410FF /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D89B32BFA2F4000D410FF /* Constans.swift */; };
 		A92BD3F09D3102DBDD4FFDAF /* Pods_calculatorApp_Redmi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16C95F1ACDD6330A7D7B372 /* Pods_calculatorApp_Redmi.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 		849D89A62BFA28E800D410FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849D89A92BFA28E800D410FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849D89AB2BFA28E800D410FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		849D89B12BFA2A5600D410FF /* Constans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constans.swift; path = ../../calculatorApp/calculatorApp/Constans.swift; sourceTree = "<group>"; };
+		849D89B32BFA2F4000D410FF /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		BD83EEC5430891AFB51D3B14 /* Pods-calculatorApp_Redmi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculatorApp_Redmi.debug.xcconfig"; path = "Target Support Files/Pods-calculatorApp_Redmi/Pods-calculatorApp_Redmi.debug.xcconfig"; sourceTree = "<group>"; };
 		F16C95F1ACDD6330A7D7B372 /* Pods_calculatorApp_Redmi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calculatorApp_Redmi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 				849D899D2BFA28E600D410FF /* AppDelegate.swift */,
 				849D899F2BFA28E600D410FF /* SceneDelegate.swift */,
 				849D89A12BFA28E600D410FF /* ViewController.swift */,
-				849D89B12BFA2A5600D410FF /* Constans.swift */,
+				849D89B32BFA2F4000D410FF /* Constans.swift */,
 				849D89A32BFA28E600D410FF /* Main.storyboard */,
 				849D89A62BFA28E800D410FF /* Assets.xcassets */,
 				849D89A82BFA28E800D410FF /* LaunchScreen.storyboard */,
@@ -211,7 +211,7 @@
 			files = (
 				849D89A22BFA28E600D410FF /* ViewController.swift in Sources */,
 				849D899E2BFA28E600D410FF /* AppDelegate.swift in Sources */,
-				849D89B22BFA2A5700D410FF /* Constans.swift in Sources */,
+				849D89B42BFA2F4000D410FF /* Constans.swift in Sources */,
 				849D89A02BFA28E600D410FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
-//  calculatorApp
+//  AppDelegate.swift
+//  calculatorApp_Redmi
 //
-//  Created by Admin on 11/05/24.
+//  Created by Admin on 19/05/24.
 //
 
 import UIKit
